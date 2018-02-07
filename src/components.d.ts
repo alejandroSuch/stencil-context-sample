@@ -35,3 +35,4 @@ declare global {
   }
 }
 
+declare global { namespace JSX { interface StencilJSX {} } }

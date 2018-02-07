@@ -2,7 +2,12 @@ import { Component, Prop } from '@stencil/core';
 
 @Component({
   tag: 'my-component',
-  styleUrl: 'my-component.scss',
+  styleUrls: {
+    ios: 'my-component.ios.scss',
+    wp: 'my-component.wp.scss',
+    md: 'my-component.md.scss',
+    desktop: 'my-component.scss',
+  },
   shadow: true
 })
 export class MyComponent {
@@ -12,7 +17,7 @@ export class MyComponent {
 
   render() {
     return (
-      <div>
+      <div class="my-component">
         Hello, World! I'm {this.first} {this.last}
       </div>
     );

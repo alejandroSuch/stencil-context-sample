@@ -1,0 +1,5 @@
+div.my-component {
+  &::after {
+    content: ' (Windows Phone VERSION)'
+  }
+}

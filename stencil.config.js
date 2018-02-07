@@ -3,7 +3,8 @@ exports.config = {
   generateDistribution: true,
   bundles: [
     { components: ['my-component'] }
-  ]
+  ],
+  globalScript: 'src/global.ts',
 };
 
 exports.devServer = {
