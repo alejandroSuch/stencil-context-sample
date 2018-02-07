@@ -1,7 +1,7 @@
 {
-  "name": "my-component",
+  "name": "@veamospues/stencil-context-sample",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Stencil Context Sample",
   "main": "dist/mycomponent.js",
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
