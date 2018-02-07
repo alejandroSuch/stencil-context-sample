@@ -1,0 +1,16 @@
+{
+  "namespace": "mycomponent",
+  "fsNamespace": "mycomponent",
+  "loader": "../mycomponent.js",
+  "global": "mycomponent.global.js",
+  "core": "mycomponent.dvmeikaw.js",
+  "corePolyfilled": "mycomponent.wqrkz22q.js",
+  "components": {
+    "my-component": {
+      "desktop": "f4almrvf",
+      "ios": "zyh5bqnx",
+      "md": "aigrysxt",
+      "wp": "bblh9a9p"
+    }
+  }
+}

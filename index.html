@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="/build/mycomponent.js"></script>
+
+</head>
+<body>
+
+  <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+
+<script>"serviceWorker"in navigator&&"file:"!==location.protocol&&window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").then(function(e){console.log("service worker registered",e),e.onupdatefound=function(){var n=e.installing;n.onstatechange=function(){"installed"===n.state&&window.dispatchEvent(new Event("swUpdate"))}}}).catch(function(e){console.log("service worker error",e)})});</script>
+</body>
+</html>
